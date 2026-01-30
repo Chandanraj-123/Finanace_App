@@ -1,11 +1,17 @@
-# Virtual Environment
-backend/venv/
+# Virtual Environments
+venv/
+**/venv/
+.venv/
+
+# Python
 __pycache__/
 *.pyc
 db.sqlite3
+*.log
 
 # Node Modules
-frontend/node_modules/
+node_modules/
+**/node_modules/
 frontend/dist/
 frontend/.vite/
 
